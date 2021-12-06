@@ -20,6 +20,7 @@ class GameScene: SKScene {
         
         let player1 = SKSpriteNode(filenamed: "player1")
         player2.position = CGPoint(x: self.size.width * 0.5, y:self.size.height * 0.5)
+        player2.setscale(0.7)
         player2.CGPoint.zero
         player2 = zPosition = 1.0
         addChild(player2)
